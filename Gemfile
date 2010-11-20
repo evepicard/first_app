@@ -7,6 +7,7 @@ gem 'rails', '3.0.1'
 
 gem 'sqlite3-ruby', '1.2.5', require => 'sqlite3'
 
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -27,4 +28,4 @@ gem 'sqlite3-ruby', '1.2.5', require => 'sqlite3'
 # and rake tasks are available in development mode:
 # group :development, :test do
 #   gem 'webrat'
-# end
+end
