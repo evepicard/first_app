@@ -9,4 +9,4 @@ begin
 rescue Bundler::GemNotFound => e
   STDERR.puts e.message
   STDERR.puts "Try running `bundle install`."
-end
+end if File.exist?(gemfile)
